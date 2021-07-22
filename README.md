@@ -13,6 +13,8 @@ In the test_xlvcreate method, physical volume, volume group and logical volume i
 In the tearDown method, pv, vg and lv is destroyed
 
 Commands used for executing the code:
-sudo python3 cli.py --test pvcreate --disk /dev/sdb
-sudo python3 cli.py --test vgcreate --disk /dev/sdb --vgname vg1
-sudo python3 cli.py --test lvcreate --disk /dev/sdb --vgname vg1 --lvname lv1
+For creating pv : sudo python3 cli.py --test pvcreate --disk /dev/sdb
+
+For creating vg : sudo python3 cli.py --test vgcreate --disk /dev/sdb --vgname vg1
+
+For creating lv : sudo python3 cli.py --test lvcreate --disk /dev/sdb --vgname vg1 --lvname lv1 --size 1000M
