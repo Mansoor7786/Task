@@ -1,5 +1,5 @@
 Subprocess is used to execute the linux system commands using python.
-3 test methods to check whether phyiscal volume, Volume group and Logical Volume is created or not using the unittest framework
+Three test methods to check whether phyiscal volume, Volume group and Logical Volume is created or not using the unittest framework
 
 In cli.py, the cli to run the tests is created using the argument parser.
 
